@@ -1,0 +1,17 @@
+C:\Users\asus\source\repos\MyBlog\MyBlog.DataAccessLayer\bin\Debug\net6.0\MyBlog.DataAccessLayer.deps.json
+C:\Users\asus\source\repos\MyBlog\MyBlog.DataAccessLayer\bin\Debug\net6.0\MyBlog.DataAccessLayer.runtimeconfig.json
+C:\Users\asus\source\repos\MyBlog\MyBlog.DataAccessLayer\bin\Debug\net6.0\MyBlog.DataAccessLayer.dll
+C:\Users\asus\source\repos\MyBlog\MyBlog.DataAccessLayer\bin\Debug\net6.0\MyBlog.DataAccessLayer.pdb
+C:\Users\asus\source\repos\MyBlog\MyBlog.DataAccessLayer\bin\Debug\net6.0\MyBlog.EntityLayer.dll
+C:\Users\asus\source\repos\MyBlog\MyBlog.DataAccessLayer\bin\Debug\net6.0\MyBlog.EntityLayer.pdb
+C:\Users\asus\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\asus\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.AssemblyInfo.cs
+C:\Users\asus\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.D.DDF0EB78.Up2Date
+C:\Users\asus\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.dll
+C:\Users\asus\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\refint\MyBlog.DataAccessLayer.dll
+C:\Users\asus\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.pdb
+C:\Users\asus\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\MyBlog.DataAccessLayer.genruntimeconfig.cache
+C:\Users\asus\source\repos\MyBlog\MyBlog.DataAccessLayer\obj\Debug\net6.0\ref\MyBlog.DataAccessLayer.dll

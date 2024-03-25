@@ -1,0 +1,11 @@
+C:\Users\asus\source\repos\MyBlog\MyBlog.EntityLayer\bin\Debug\net6.0\MyBlog.EntityLayer.deps.json
+C:\Users\asus\source\repos\MyBlog\MyBlog.EntityLayer\bin\Debug\net6.0\MyBlog.EntityLayer.dll
+C:\Users\asus\source\repos\MyBlog\MyBlog.EntityLayer\bin\Debug\net6.0\MyBlog.EntityLayer.pdb
+C:\Users\asus\source\repos\MyBlog\MyBlog.EntityLayer\obj\Debug\net6.0\MyBlog.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\source\repos\MyBlog\MyBlog.EntityLayer\obj\Debug\net6.0\MyBlog.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\asus\source\repos\MyBlog\MyBlog.EntityLayer\obj\Debug\net6.0\MyBlog.EntityLayer.AssemblyInfo.cs
+C:\Users\asus\source\repos\MyBlog\MyBlog.EntityLayer\obj\Debug\net6.0\MyBlog.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\MyBlog\MyBlog.EntityLayer\obj\Debug\net6.0\MyBlog.EntityLayer.dll
+C:\Users\asus\source\repos\MyBlog\MyBlog.EntityLayer\obj\Debug\net6.0\refint\MyBlog.EntityLayer.dll
+C:\Users\asus\source\repos\MyBlog\MyBlog.EntityLayer\obj\Debug\net6.0\MyBlog.EntityLayer.pdb
+C:\Users\asus\source\repos\MyBlog\MyBlog.EntityLayer\obj\Debug\net6.0\ref\MyBlog.EntityLayer.dll

@@ -1,0 +1,19 @@
+﻿@model MyBlog.EntityLayer.Concrete.Category
+@{
+    Layout = null;
+}
+<script src="/_framework/aspnetcore-browser-refresh.js"></script>
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<div class="container">
+   <br />
+   <br />
+   <h2>Kategori Girişi</h2>
+   <form method="post">
+   <label>Kategori Adı</label>
+   <input type="text" class="form-control" asp-for="CategoryName"/>
+   <br />
+        <button class="btn btn-info">Kaydet</button>
+    </form>
+    <br />
+    
+</div>

@@ -1,0 +1,17 @@
+C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.BusinessLayer.deps.json
+C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.BusinessLayer.dll
+C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.BusinessLayer.pdb
+C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.DataAccessLayer.dll
+C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.EntityLayer.dll
+C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.DataAccessLayer.pdb
+C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\bin\Debug\net6.0\MyBlog.EntityLayer.pdb
+C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.AssemblyInfo.cs
+C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.B.40830BFB.Up2Date
+C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.dll
+C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\refint\MyBlog.BusinessLayer.dll
+C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.pdb
+C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\ref\MyBlog.BusinessLayer.dll
