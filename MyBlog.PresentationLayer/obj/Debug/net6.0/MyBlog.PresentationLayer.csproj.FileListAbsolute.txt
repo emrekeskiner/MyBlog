@@ -257,3 +257,4 @@ C:\Users\asus\source\repos\MyBlog\MyBlog.PresentationLayer\bin\Debug\net6.0\runt
 C:\Users\asus\source\repos\MyBlog\MyBlog.PresentationLayer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\asus\source\repos\MyBlog\MyBlog.PresentationLayer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\asus\source\repos\MyBlog\MyBlog.PresentationLayer\obj\Debug\net6.0\MyBlog.PresentationLayer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\asus\source\repos\MyBlog\MyBlog.PresentationLayer\obj\Debug\net6.0\MyBlog.PresentationLayer.sourcelink.json

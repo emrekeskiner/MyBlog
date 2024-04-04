@@ -13,6 +13,434 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\404.html",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\404.html"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\Source\\OwlCarousel2-2.3.4.zip",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\Source\\OwlCarousel2-2.3.4.zip"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\Source\\SlickNav-master.zip",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\Source\\SlickNav-master.zip"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\Source\\bootstrap-4.4.1-dist.zip",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\Source\\bootstrap-4.4.1-dist.zip"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\Source\\font-awesome-4.7.0.zip",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\Source\\font-awesome-4.7.0.zip"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\about.html",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\categories-grid.html",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\categories-grid.html"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\categories-list.html",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\categories-list.html"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\contact.html",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\css\\elegant-icons.css",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\css\\elegant-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\css\\style.css",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\foodieiblog-free-template.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\foodieiblog-free-template.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\about\\about-1.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\about\\about-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\about\\about-2.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\about\\about-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\about\\about-3.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\about\\about-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\cat-1.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\cat-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\cat-2.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\cat-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\cat-3.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\cat-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\cat-4.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\cat-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\categories-list\\cl-1.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\categories-list\\cl-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\categories-list\\cl-2.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\categories-list\\cl-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\categories-list\\cl-3.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\categories-list\\cl-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\categories-list\\cl-4.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\categories-list\\cl-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\categories-list\\cl-5.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\categories-list\\cl-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\categories-list\\cl-6.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\categories-list\\cl-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\categories-list\\cl-7.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\categories-list\\cl-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\categories-post\\cp-1.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\categories-post\\cp-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\categories-post\\cp-2.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\categories-post\\cp-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\categories-post\\cp-3.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\categories-post\\cp-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\categories-post\\cp-4.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\categories-post\\cp-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\categories-post\\cp-5.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\categories-post\\cp-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\categories-post\\cp-6.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\categories-post\\cp-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\categories-post\\cp-7.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\categories-post\\cp-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\categories-post\\cp-8.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\categories-post\\cp-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\categories-post\\quote.png",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\categories-post\\quote.png"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\single-post\\author-profile.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\single-post\\author-profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\single-post\\comment\\comment-1.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\single-post\\comment\\comment-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\single-post\\comment\\comment-2.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\single-post\\comment\\comment-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\single-post\\comment\\comment-3.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\single-post\\comment\\comment-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\single-post\\quote-left.png",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\single-post\\quote-left.png"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\single-post\\single-post-desc.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\single-post\\single-post-desc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\categories\\single-post\\single-post-hero.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\categories\\single-post\\single-post-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\footer\\instagram-avatar.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\footer\\instagram-avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\footer\\ip-1.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\footer\\ip-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\footer\\ip-2.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\footer\\ip-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\footer\\ip-3.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\footer\\ip-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\footer\\ip-4.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\footer\\ip-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\footer\\ip-5.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\footer\\ip-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\footer\\ip-6.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\footer\\ip-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\hero\\hero-1.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\hero\\hero-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\hero\\hero-2.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\hero\\hero-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\hero\\hero-3.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\hero\\hero-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\hero\\hero-4.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\hero\\hero-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\humberger\\humberger-about.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\humberger\\humberger-about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\humberger\\humberger-logo.png",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\humberger\\humberger-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\logo.png",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\megamenu\\p-1.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\megamenu\\p-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\megamenu\\p-2.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\megamenu\\p-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\megamenu\\p-3.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\megamenu\\p-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\megamenu\\p-4.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\megamenu\\p-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\megamenu\\p-5.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\megamenu\\p-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\sidebar\\banner.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\sidebar\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\sidebar\\feature-post.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\sidebar\\feature-post.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\sidebar\\sidebar-about.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\sidebar\\sidebar-about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\siign-in-logo.png",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\siign-in-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\img\\typography.jpg",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\img\\typography.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\index.html",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\js\\jquery.slicknav.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\js\\main.js",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\main.html",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\main.html"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\readme.txt",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\sass\\_404.scss",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\sass\\_404.scss"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\sass\\_about-page.scss",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\sass\\_about-page.scss"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\sass\\_base.scss",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\sass\\_base.scss"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\sass\\_categories.scss",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\sass\\_categories.scss"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\sass\\_contact.scss",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\sass\\_contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\sass\\_footer.scss",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\sass\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\sass\\_header.scss",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\sass\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\sass\\_hero.scss",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\sass\\_hero.scss"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\sass\\_mixins.scss",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\sass\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\sass\\_responsive.scss",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\sass\\_responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\sass\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\sass\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\sass\\_signin.scss",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\sass\\_signin.scss"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\sass\\_single-post.scss",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\sass\\_single-post.scss"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\sass\\_typography.scss",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\sass\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\sass\\_variable.scss",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\sass\\_variable.scss"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\sass\\style.scss",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\sass\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\signin.html",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\signin.html"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\single-post.html",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\single-post.html"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\foodeiblog-master\\typography.html",
+      "PackagePath": "staticwebassets\\foodeiblog-master\\typography.html"
+    },
+    {
       "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

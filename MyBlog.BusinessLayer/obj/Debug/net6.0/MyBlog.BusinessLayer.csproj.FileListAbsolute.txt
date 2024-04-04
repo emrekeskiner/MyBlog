@@ -15,3 +15,4 @@ C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.B
 C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\refint\MyBlog.BusinessLayer.dll
 C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.pdb
 C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\ref\MyBlog.BusinessLayer.dll
+C:\Users\asus\source\repos\MyBlog\MyBlog.BusinessLayer\obj\Debug\net6.0\MyBlog.BusinessLayer.sourcelink.json

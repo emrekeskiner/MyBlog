@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\asus\\source\\repos\\MyBlog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|c:\\users\\asus\\source\\repos\\myblog\\myblog.presentationlayer\\views\\category\\categorylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|solutionrelative:myblog.presentationlayer\\views\\category\\categorylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|c:\\users\\asus\\source\\repos\\myblog\\myblog.presentationlayer\\views\\shared\\components\\_bloglistcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|solutionrelative:myblog.presentationlayer\\views\\shared\\components\\_bloglistcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|c:\\users\\asus\\source\\repos\\myblog\\myblog.presentationlayer\\views\\category\\createcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|solutionrelative:myblog.presentationlayer\\views\\category\\createcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|c:\\users\\asus\\source\\repos\\myblog\\myblog.presentationlayer\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|solutionrelative:myblog.presentationlayer\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|c:\\users\\asus\\source\\repos\\myblog\\myblog.presentationlayer\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|solutionrelative:myblog.presentationlayer\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|c:\\users\\asus\\source\\repos\\myblog\\myblog.presentationlayer\\viewcomponents\\defaultviewcomponents\\_bloglistcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|solutionrelative:myblog.presentationlayer\\viewcomponents\\defaultviewcomponents\\_bloglistcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateCategory.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Views\\Category\\CreateCategory.cshtml",
-              "RelativeDocumentMoniker": "MyBlog.PresentationLayer\\Views\\Category\\CreateCategory.cshtml",
-              "ToolTip": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Views\\Category\\CreateCategory.cshtml",
-              "RelativeToolTip": "MyBlog.PresentationLayer\\Views\\Category\\CreateCategory.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-21T19:15:48.008Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoryList.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Views\\Category\\CategoryList.cshtml",
-              "RelativeDocumentMoniker": "MyBlog.PresentationLayer\\Views\\Category\\CategoryList.cshtml",
-              "ToolTip": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Views\\Category\\CategoryList.cshtml",
-              "RelativeToolTip": "MyBlog.PresentationLayer\\Views\\Category\\CategoryList.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Views\\Shared\\Components\\_BlogListComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "MyBlog.PresentationLayer\\Views\\Shared\\Components\\_BlogListComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Views\\Shared\\Components\\_BlogListComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "MyBlog.PresentationLayer\\Views\\Shared\\Components\\_BlogListComponentPartial\\Default.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABMAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-21T18:49:24.458Z",
+              "WhenOpened": "2024-04-03T19:07:17.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "MyBlog.PresentationLayer\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "MyBlog.PresentationLayer\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAIwCUAAAArAAAA",
+              "Title": "_BlogListComponentPartial.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\ViewComponents\\DefaultViewComponents\\_BlogListComponentPartial.cs",
+              "RelativeDocumentMoniker": "MyBlog.PresentationLayer\\ViewComponents\\DefaultViewComponents\\_BlogListComponentPartial.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\ViewComponents\\DefaultViewComponents\\_BlogListComponentPartial.cs",
+              "RelativeToolTip": "MyBlog.PresentationLayer\\ViewComponents\\DefaultViewComponents\\_BlogListComponentPartial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T18:42:39.287Z"
+              "WhenOpened": "2024-04-03T19:02:06.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Views\\Default\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyBlog.PresentationLayer\\Views\\Default\\Index.cshtml",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Views\\Default\\Index.cshtml",
+              "RelativeToolTip": "MyBlog.PresentationLayer\\Views\\Default\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T17:43:44.178Z",
+              "EditorCaption": ""
             }
           ]
         }
