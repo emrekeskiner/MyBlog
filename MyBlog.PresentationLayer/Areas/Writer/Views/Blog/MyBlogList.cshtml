@@ -1,0 +1,58 @@
+﻿@model List<MyBlog.EntityLayer.Concrete.Article>
+@{
+    ViewData["Title"] = "MyBlogList";
+    Layout = "~/Areas/Writer/Views/WriterLayout/Index.cshtml";
+}
+
+    <div class="content-wrapper">
+        <div class="page-header">
+            <h3 class="page-title">Blog Sayfası</h3>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Bloglar</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"> Benim Bloglarım </li>
+                </ol>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Blog Listesi</h4>
+                        <p class="card-description">
+                            Yazmış olduğunuz bloglarla ilgili işlemleri aşağıdaki panelden gerçekleştirebilirsiniz.
+                        </p>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Başlık</th>
+                                        <th>Tarih</th>
+                                        <th>Sil</th>
+                                        <th>Güncelle</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>@item.ArticleId</td>
+                                            <td>@item.Title</td>
+                                            <td>@item.CreatedDate.ToString("dd.MM.yyyy")</td>
+                                            <td><a href="#" class="btn btn-danger">Sil</a></td>
+                                            <td><a href="#" class="btn btn-danger">Güncelle</a></td>
+                                        </tr>
+                                    }
+
+
+                                </tbody>
+                            </table>
+                            <a href="#" class="btn btn-info">Yeni Blog Girişi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>

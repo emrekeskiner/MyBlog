@@ -10,3 +10,4 @@ C:\Users\asus\source\repos\MyBlog\MyBlog.EntityLayer\obj\Debug\net6.0\refint\MyB
 C:\Users\asus\source\repos\MyBlog\MyBlog.EntityLayer\obj\Debug\net6.0\MyBlog.EntityLayer.pdb
 C:\Users\asus\source\repos\MyBlog\MyBlog.EntityLayer\obj\Debug\net6.0\ref\MyBlog.EntityLayer.dll
 C:\Users\asus\source\repos\MyBlog\MyBlog.EntityLayer\obj\Debug\net6.0\MyBlog.EntityLayer.sourcelink.json
+C:\Users\asus\source\repos\MyBlog\MyBlog.EntityLayer\obj\Debug\net6.0\MyBlog.EntityLayer.csproj.AssemblyReference.cache

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace MyBlog.BusinessLayer.Concrete
 {
+
     public class ArticleManager : IArticleService
     {
 
@@ -17,6 +18,11 @@ namespace MyBlog.BusinessLayer.Concrete
         public ArticleManager(IArticleDal articleDal)
         {
             _articleDal = articleDal;
+        }
+
+        public List<Article> TGetArticlesByWriter(int id)
+        {
+            return _articleDal.GetArticlesByWriter(id);
         }
 
         public void TDelete(int id)

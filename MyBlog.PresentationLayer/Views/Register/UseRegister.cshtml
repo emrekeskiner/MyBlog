@@ -1,0 +1,44 @@
+﻿@model RegisterViewModel
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<div class="container">
+    <form method="post">
+        <div class="form-group mt-1">
+        <label>Adınız</label>
+        <input type="text" asp-for="Name" class="form-control" />
+         <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group mt-1">
+        <label>Soyadınız</label>
+        <input type="text" asp-for="Surname" class="form-control" />
+        <span asp-validation-for="Surname" class="text-danger"></span>
+        </div>
+        <div class="form-group mt-1">
+        <label>Email Adresiniz</label>
+        <input type="text" asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="form-group mt-1">
+        <label>Kullanıcı Adınız</label>
+        <input type="text" asp-for="Username" class="form-control" />
+        <span asp-validation-for="Username" class="text-danger"></span>
+        </div>
+        <div class="form-group mt-1">
+        <label>Şifreniz</label>
+        <input type="password" asp-for="Password" class="form-control" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+            <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+        </div>
+        <div class="form-group mt-1">
+        <label>Şifre Kontrol</label>
+        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+        <input type="password" asp-for="ConfirmPassword" class="form-control" />
+        </div>
+        <div class="form-group mt-1">
+        <button class="btn btn-primary">Kaydet</button>
+        </div>
+    </form>
+</div>
