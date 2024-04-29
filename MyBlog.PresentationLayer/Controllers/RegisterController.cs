@@ -40,7 +40,7 @@ namespace MyBlog.PresentationLayer.Controllers
 
             if(result.Succeeded)
             {
-                return RedirectToAction("Index", "Login");
+                return RedirectToAction("UseLogin", "Login");
             }else {
                 foreach (var item in result.Errors)
                 {

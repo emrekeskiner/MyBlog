@@ -1,0 +1,93 @@
+﻿@model About
+@{
+    ViewData["Title"] = "Contacts";
+    Layout = "~/Views/Shared/_blogLayout.cshtml";
+}
+<div class="contact__text">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="breadcrumb__text">
+                <h2>İletişim</h2>
+                <div class="breadcrumb__option">
+                    <a href="/Default/Index">Anasayfa</a>
+                    <span>İletişim</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="contact__map">
+                <iframe src="@Model.GoogleMaps"
+                        height="350" style="border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
+            </div>
+            <div class="contact__widget">
+                <ul>
+                    <li>
+                        <i class="fa fa-map-marker"></i>
+                        <span>@Model.Address</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-mobile"></i>
+                        <span>Telefon: @Model.Phone</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>Email: @Model.Mail</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+            <div class="contact__form">
+                <div class="contact__form__title">
+                    <h2>İletişim Formu</h2>
+                    <p>
+                        Destek ve iletişim için lütfen aşağıdaki formu doldurunuz.
+                    </p>
+                </div>
+                <form id="contactForm">
+                    <input type="text" id="inpName" placeholder="Adınız ve Soyadınız" required>
+                    <input type="text" id="inpMail" placeholder="E-mail adresiniz" required>
+                    <input type="text" id="inpSubject" placeholder="Konu giriniz." required>
+                    <textarea id="inpMesaj" placeholder="Mesaj" required></textarea>
+                    <button type="button" id="contactSubmit" class="site-btn">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script>
+        $("#contactSubmit").click(function () {
+            let values = {
+                NameSurname: $("#inpName").val(),
+                Mail: $("#inpMail").val(),
+                Subject: $("#inpSubject").val(),
+                Message: $("#inpMesaj").val()
+               
+            };
+
+
+            $.ajax({
+                type: "Post",
+                url: "/Contact/ContactMessageSend/",
+                data: values,
+                success: function (AddFunc) {
+                    let result = $.parseJSON(AddFunc);
+                    toastr.success("Mesaj gönderme başarılı.", { tapToDismiss: true });
+                    $("#contactSubmit").hide();
+                    //$("#contactForm").trigger("reset");
+                },
+                error: function (err) {
+                    console.log(err);
+                    
+                    toastr.error("Beklenmedik hata, daha sonra tekrar deneyiniz.", { tapToDismiss: true });
+                }
+            });
+        });
+    </script>
+}

@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\asus\\source\\repos\\MyBlog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|c:\\users\\asus\\source\\repos\\myblog\\myblog.presentationlayer\\areas\\writer\\views\\blog\\mybloglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|solutionrelative:myblog.presentationlayer\\areas\\writer\\views\\blog\\mybloglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|c:\\users\\asus\\source\\repos\\myblog\\myblog.presentationlayer\\views\\blog\\blogdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|solutionrelative:myblog.presentationlayer\\views\\blog\\blogdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|c:\\users\\asus\\source\\repos\\myblog\\myblog.presentationlayer\\areas\\writer\\views\\writerlayout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|solutionrelative:myblog.presentationlayer\\areas\\writer\\views\\writerlayout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|c:\\users\\asus\\source\\repos\\myblog\\myblog.presentationlayer\\views\\shared\\components\\_subscribecomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|solutionrelative:myblog.presentationlayer\\views\\shared\\components\\_subscribecomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|c:\\users\\asus\\source\\repos\\myblog\\myblog.presentationlayer\\wwwroot\\template\\pages\\tables\\basic-table.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|solutionrelative:myblog.presentationlayer\\wwwroot\\template\\pages\\tables\\basic-table.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|c:\\users\\asus\\source\\repos\\myblog\\myblog.presentationlayer\\views\\shared\\components\\_commentlistbyblogcomponentspartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|solutionrelative:myblog.presentationlayer\\views\\shared\\components\\_commentlistbyblogcomponentspartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|c:\\users\\asus\\source\\repos\\myblog\\myblog.presentationlayer\\areas\\writer\\controllers\\writerlayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|solutionrelative:myblog.presentationlayer\\areas\\writer\\controllers\\writerlayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|c:\\users\\asus\\source\\repos\\myblog\\myblog.presentationlayer\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|solutionrelative:myblog.presentationlayer\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|c:\\users\\asus\\source\\repos\\myblog\\myblog.presentationlayer\\areas\\writer\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|solutionrelative:myblog.presentationlayer\\areas\\writer\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|c:\\users\\asus\\source\\repos\\myblog\\myblog.presentationlayer\\viewcomponents\\commentviewcomponents\\_commentlistbyblogcomponentspartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|solutionrelative:myblog.presentationlayer\\viewcomponents\\commentviewcomponents\\_commentlistbyblogcomponentspartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|c:\\users\\asus\\source\\repos\\myblog\\myblog.presentationlayer\\todolist\\todolist.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FB9F1B56-A44F-4A74-8337-846AD67D44CE}|MyBlog.PresentationLayer\\MyBlog.PresentationLayer.csproj|solutionrelative:myblog.presentationlayer\\todolist\\todolist.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,67 +42,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MyBlogList.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Areas\\Writer\\Views\\Blog\\MyBlogList.cshtml",
-              "RelativeDocumentMoniker": "MyBlog.PresentationLayer\\Areas\\Writer\\Views\\Blog\\MyBlogList.cshtml",
-              "ToolTip": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Areas\\Writer\\Views\\Blog\\MyBlogList.cshtml",
-              "RelativeToolTip": "MyBlog.PresentationLayer\\Areas\\Writer\\Views\\Blog\\MyBlogList.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-18T20:26:53.15Z",
+              "DocumentIndex": 3,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "MyBlog.PresentationLayer\\Controllers\\BlogController.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "MyBlog.PresentationLayer\\Controllers\\BlogController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAIwB4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:34:13.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Areas\\Writer\\Views\\WriterLayout\\Index.cshtml",
-              "RelativeDocumentMoniker": "MyBlog.PresentationLayer\\Areas\\Writer\\Views\\WriterLayout\\Index.cshtml",
-              "ToolTip": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Areas\\Writer\\Views\\WriterLayout\\Index.cshtml",
-              "RelativeToolTip": "MyBlog.PresentationLayer\\Areas\\Writer\\Views\\WriterLayout\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAnAAAA",
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Views\\Shared\\Components\\_SubscribeComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "MyBlog.PresentationLayer\\Views\\Shared\\Components\\_SubscribeComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Views\\Shared\\Components\\_SubscribeComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "MyBlog.PresentationLayer\\Views\\Shared\\Components\\_SubscribeComponentPartial\\Default.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-18T20:26:27.976Z",
+              "WhenOpened": "2024-04-29T06:33:52.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "basic-table.html",
-              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\template\\pages\\tables\\basic-table.html",
-              "RelativeDocumentMoniker": "MyBlog.PresentationLayer\\wwwroot\\template\\pages\\tables\\basic-table.html",
-              "ToolTip": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\template\\pages\\tables\\basic-table.html",
-              "RelativeToolTip": "MyBlog.PresentationLayer\\wwwroot\\template\\pages\\tables\\basic-table.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-04-18T20:21:17.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WriterLayoutController.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Areas\\Writer\\Controllers\\WriterLayoutController.cs",
-              "RelativeDocumentMoniker": "MyBlog.PresentationLayer\\Areas\\Writer\\Controllers\\WriterLayoutController.cs",
-              "ToolTip": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Areas\\Writer\\Controllers\\WriterLayoutController.cs",
-              "RelativeToolTip": "MyBlog.PresentationLayer\\Areas\\Writer\\Controllers\\WriterLayoutController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAswAcAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T19:15:50.284Z",
+              "DocumentIndex": 5,
+              "Title": "toDoList.txt",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\ToDoList\\toDoList.txt",
+              "RelativeDocumentMoniker": "MyBlog.PresentationLayer\\ToDoList\\toDoList.txt",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\ToDoList\\toDoList.txt",
+              "RelativeToolTip": "MyBlog.PresentationLayer\\ToDoList\\toDoList.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAACZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-28T19:51:54.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BlogController.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Areas\\Writer\\Controllers\\BlogController.cs",
-              "RelativeDocumentMoniker": "MyBlog.PresentationLayer\\Areas\\Writer\\Controllers\\BlogController.cs",
-              "ToolTip": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Areas\\Writer\\Controllers\\BlogController.cs",
-              "RelativeToolTip": "MyBlog.PresentationLayer\\Areas\\Writer\\Controllers\\BlogController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Title": "_CommentListByBlogComponentsPartial.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\ViewComponents\\CommentViewComponents\\_CommentListByBlogComponentsPartial.cs",
+              "RelativeDocumentMoniker": "MyBlog.PresentationLayer\\ViewComponents\\CommentViewComponents\\_CommentListByBlogComponentsPartial.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\ViewComponents\\CommentViewComponents\\_CommentListByBlogComponentsPartial.cs",
+              "RelativeToolTip": "MyBlog.PresentationLayer\\ViewComponents\\CommentViewComponents\\_CommentListByBlogComponentsPartial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T17:58:04.24Z",
+              "WhenOpened": "2024-04-28T19:43:01.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Views\\Shared\\Components\\_CommentListByBlogComponentsPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "MyBlog.PresentationLayer\\Views\\Shared\\Components\\_CommentListByBlogComponentsPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Views\\Shared\\Components\\_CommentListByBlogComponentsPartial\\Default.cshtml",
+              "RelativeToolTip": "MyBlog.PresentationLayer\\Views\\Shared\\Components\\_CommentListByBlogComponentsPartial\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-28T19:30:57.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlogDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Views\\Blog\\BlogDetail.cshtml",
+              "RelativeDocumentMoniker": "MyBlog.PresentationLayer\\Views\\Blog\\BlogDetail.cshtml",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\Views\\Blog\\BlogDetail.cshtml",
+              "RelativeToolTip": "MyBlog.PresentationLayer\\Views\\Blog\\BlogDetail.cshtml",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAADQAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-28T18:53:22.053Z",
               "EditorCaption": ""
             }
           ]

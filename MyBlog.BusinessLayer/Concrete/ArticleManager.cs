@@ -49,5 +49,20 @@ namespace MyBlog.BusinessLayer.Concrete
         {
             _articleDal.Update(entity);
         }
+
+        public List<Article> TGetArticlesWithCategoryByWriter(int id)
+        {
+            return _articleDal.GetArticlesWithCategoryByWriter(id);
+        }
+
+        public List<Article> TGetArticlesWithCategory()
+        {
+            return _articleDal.GetArticlesWithCategory();
+        }
+
+        public Article TGetArticleWithCategoryByArticleId(int id)
+        {
+            return _articleDal.GetArticleWithCategoryByArticleId(id);
+        }
     }
 }

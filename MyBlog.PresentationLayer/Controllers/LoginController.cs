@@ -28,7 +28,7 @@ namespace MyBlog.PresentationLayer.Controllers
                 var result = await _signInManager.PasswordSignInAsync(model.Username, model.Password, false, false);
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("UserProfile", "Profile");
+                    return RedirectToAction("Index", "Default");
                 }
                 else
                 {

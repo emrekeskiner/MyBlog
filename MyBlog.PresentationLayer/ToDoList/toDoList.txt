@@ -1,0 +1,20 @@
+1-YAZAR PANELÝ SÝDEBAR TAMAMI ÖRNEK BLOGLAR AYARLAR ÞÝFRE DEÐÝÞÝKLÝÐÝ YAZAR MESAJLAÞMA GÝDEN GELEN MESAJLAR
+2-DASHBOARD HAZIRLAMA YAZAR ÝÇÝN TOPLMA BLOG SAYISI AKTÝF PASÝF BLOG SAYISI YORUM SAYISI
+3-ADMÝN PANELÝ BÝR AREADA ADMÝN ÝÇÝN YAZAR VE YORUM YÖNENTECEK 
+4-BULUNDUÐUMUZ ÞEHRE AÝT SICAKLIK VERNE EKRAN OPENWEATHERMAP SÝTESÝNÝ KULLANARAK 1 HAFTALIK HAVA VERÝSÝ ÇEKME ÝKONLARIYLA GÜNEÞLÝ BULUTLU
+5-YAZARA ATILAN SON 3 MESAJ YAZAR PANELÝNDE ÜST MENÜDE LÝSTELENSÝN
+6-NOTÝFÝCATÝON TABLOSU ADMÝN BÝLDÝRÝM OLUÞTURUSN SÝLSÝN GÜNCELLESÝN YAZARLAR OKUYABÝLÝRSÝN SÝSTEM BAKIMDA TARZI
+7-ÝSTATÝSLÝK SAYFASI ADMÝN PANELÝ ÝÇÝN 12 TANE ENTÝTY ÖZGÜ METHODLAR ÝLE
+8-Admin panelinde blog baþlýðýna göre arama iþlemi admin panelinde
+9-projeye 404 sayfasý yüklenmesi ek olarak 403 sayfasý (login yapmadan giriþ yapýnca çýkýyor)
+10-girþ yapan kullanýcýn adý soyadý görseli toplma blog sayýsý gelsin siderbarda
+11-projenize admin panelinde Google chart her kategoriyde kacc blog olduðu
+12-admin panelinde yorumlar yönetilebilsin
+13-projenin anasayfasýndaki diðer kýsýmlar tamamlansýn 
+14-yazar tarafýnda text editör nasýl yazdýysa resim ekleme iþlemide dahil ayni þekilde listelensin kalýn yaptýysa kalýn gibi 
+
+
+
+https://www.linkedin.com/posts/muratyucedag_iþte-benim-öðrencilerim-sevgili-ensar-activity-7189281711992541185-Jgzq/?utm_source=share&utm_medium=member_desktop
+
+https://www.linkedin.com/posts/btk-akademi_btkakademi-programcaft-programmer-activity-7188918841731690496-EY0j?utm_source=share&utm_medium=member_desktop

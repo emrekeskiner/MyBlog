@@ -1719,7 +1719,7 @@ ol {
 }
 
 .single-post__hero {
-	height: 960px;
+	height: 600px;
 }
 
 .single-post__title {
@@ -1849,6 +1849,7 @@ ol {
 	-o-transition: all, 0.3s;
 	transition: all, 0.3s;
 	margin-bottom: 10px;
+	padding:15px;
 }
 
 .single-post__social__item ul li a:last-child {
@@ -2202,6 +2203,7 @@ ol {
 	text-align: center;
 	margin-right: 6px;
 	margin-top: 5px;
+	padding:11px;
 }
 
 .single-post__author__profile__text .single-post__author__profile__social a:last-child {
@@ -2440,6 +2442,7 @@ ol {
 	-o-transition: all, 0.3s;
 	transition: all, 0.3s;
 	margin-right: 6px;
+	padding:15px;
 }
 
 .footer__text .footer__social a:last-child {
@@ -3189,7 +3192,7 @@ ol {
 		width: 100%;
 	}
 	.single-post__hero {
-		height: 700px;
+		height: 400px;
 	}
 	.signin {
 		-webkit-box-align: start;

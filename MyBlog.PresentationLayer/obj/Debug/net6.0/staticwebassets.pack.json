@@ -441,6 +441,18 @@
       "PackagePath": "staticwebassets\\foodeiblog-master\\typography.html"
     },
     {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\images\\9bc01c1e-0498-4f17-8a59-80d4abe49f7d.jpg",
+      "PackagePath": "staticwebassets\\images\\9bc01c1e-0498-4f17-8a59-80d4abe49f7d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\images\\b3fbc033-76ea-42a5-b7b2-c0c55e73d9ae.jpg",
+      "PackagePath": "staticwebassets\\images\\b3fbc033-76ea-42a5-b7b2-c0c55e73d9ae.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\images\\ff4aae99-cb3b-45f1-990a-a41bead08023.jpg",
+      "PackagePath": "staticwebassets\\images\\ff4aae99-cb3b-45f1-990a-a41bead08023.jpg"
+    },
+    {
       "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -3939,6 +3951,22 @@
     {
       "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\template\\partials\\_sidebar.html",
       "PackagePath": "staticwebassets\\template\\partials\\_sidebar.html"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\toastr.js\\toastr.css",
+      "PackagePath": "staticwebassets\\toastr.js\\toastr.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\toastr.js\\toastr.js.map",
+      "PackagePath": "staticwebassets\\toastr.js\\toastr.js.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\toastr.js\\toastr.min.css",
+      "PackagePath": "staticwebassets\\toastr.js\\toastr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\toastr.js\\toastr.min.js",
+      "PackagePath": "staticwebassets\\toastr.js\\toastr.min.js"
     },
     {
       "Id": "C:\\Users\\asus\\source\\repos\\MyBlog\\MyBlog.PresentationLayer\\wwwroot\\userimage\\0cd550ab-4470-4281-86ca-3bee6d531366.jpg",

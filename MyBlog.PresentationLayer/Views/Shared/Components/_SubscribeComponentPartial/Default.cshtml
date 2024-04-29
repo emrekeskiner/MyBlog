@@ -1,0 +1,46 @@
+﻿@model Subscribe
+
+<div class="sidebar__subscribe__item">
+    <div class="sidebar__item__title">
+        <h6>Abone Olun</h6>
+    </div>
+    <p>Haber bültenimize abone olun. Yeni eklenen bloglardan ilk sizin haberiniz olsun.</p>
+    <form>
+        <input type="mail" id="inpmail" class="email-input" asp-for="SubscribeMail" placeholder="Mail Adresiniz.">
+        <label for="s-agree-check">
+            Kullanım şartlarını ve koşullarını kabul ediyorum.
+        <input type="checkbox" id="inpcheck" checked asp-for="IsTrue" id="s-agree-check">
+            <span class="checkmark"></span>
+        </label>
+        <button type="button" id="subscribeAdd"  class="site-btn">Abone ol</button>
+    </form>
+</div>
+
+
+    <script>
+        $("#subscribeAdd").click(function () {
+            let values = {
+                SubscribeMail: $("#inpmail").val(),
+                IsTrue: $("#inpcheck").val()
+            };
+
+
+            $.ajax({
+                type: "Post",
+                url: "/Blog/AddSubscribe/",
+                data: values,
+                success: function (AddFunc) {
+                    //let result = $.parseJSON(AddFunc);
+                    toastr.success("Bültenimize başarıyla abone oldunuz.", { tapToDismiss: true });
+                    $("#inpmail").hide();
+                    $("#inpcheck").hide();
+                    $("#subscribeAdd").hide();
+                },
+                error: function (err) {
+                    console.log(err);
+
+                    toastr.error("Beklenmedik hata, daha sonra tekrar deneyiniz.", { tapToDismiss: true });
+                }
+            });
+        });
+    </script>

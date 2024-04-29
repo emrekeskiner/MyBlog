@@ -14,7 +14,7 @@ namespace MyBlog.PresentationLayer.ViewComponents.DefaultViewComponents
 
         public IViewComponentResult Invoke()
         {
-            var values = _socialMediaService.TGetListAll();
+            var values = _socialMediaService.TGetListAll().Where(x => x.Status == true).ToList(); 
             return View(values);
         }
     }

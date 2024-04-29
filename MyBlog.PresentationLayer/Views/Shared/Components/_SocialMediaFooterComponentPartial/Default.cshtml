@@ -1,0 +1,7 @@
+﻿@model List<SocialMedia>
+
+@foreach(var item in Model)
+{
+    <a href="@item.LinkUrl" target="_blank"><i class="fa fa-@item.IconUrl"></i></a>
+
+}

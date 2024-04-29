@@ -1,0 +1,45 @@
+﻿@model About
+
+@{
+    ViewData["Title"] = "AboutPage";
+    Layout = "~/Views/Shared/_blogLayout.cshtml";
+}
+
+<div class="about__text">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="breadcrumb__text">
+                <h2>Biz kimiz ?</h2>
+                <div class="breadcrumb__option">
+                    <a href="/Default/Index">Anasayfa</a>
+                    <span>Biz kimiz ?</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="about__pic__item__large">
+                <img src="~/foodeiblog-master/img/about/about-1.jpg" alt="">
+            </div>
+            <div class="about__pic">
+                <div class="about__pic__item">
+                    <img src="~/foodeiblog-master/img/about/about-2.jpg" alt="">
+                </div>
+                <div class="about__pic__item">
+                    <img src="~/foodeiblog-master/img/about/about-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="about__right__text">
+                <h2>@Model.Title</h2>
+                <p>
+                   @Model.Description
+                </p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+

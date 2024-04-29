@@ -125,6 +125,37 @@ namespace MyBlog.DataAccessLayer.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("MyBlog.EntityLayer.Concrete.About", b =>
+                {
+                    b.Property<int>("AboutId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AboutId"), 1L, 1);
+
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("GoogleMaps")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Mail")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("AboutId");
+
+                    b.ToTable("Abouts");
+                });
+
             modelBuilder.Entity("MyBlog.EntityLayer.Concrete.AppRole", b =>
                 {
                     b.Property<int>("Id")
@@ -251,6 +282,9 @@ namespace MyBlog.DataAccessLayer.Migrations
                     b.Property<int?>("AppUserId")
                         .HasColumnType("int");
 
+                    b.Property<int?>("CategoryId")
+                        .HasColumnType("int");
+
                     b.Property<string>("CoverImageUrl")
                         .HasColumnType("nvarchar(max)");
 
@@ -269,6 +303,8 @@ namespace MyBlog.DataAccessLayer.Migrations
                     b.HasKey("ArticleId");
 
                     b.HasIndex("AppUserId");
+
+                    b.HasIndex("CategoryId");
 
                     b.ToTable("Articles");
                 });
@@ -297,6 +333,12 @@ namespace MyBlog.DataAccessLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CommentId"), 1L, 1);
 
+                    b.Property<int?>("AppUserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ArticleId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
@@ -308,7 +350,42 @@ namespace MyBlog.DataAccessLayer.Migrations
 
                     b.HasKey("CommentId");
 
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("ArticleId");
+
                     b.ToTable("Comments");
+                });
+
+            modelBuilder.Entity("MyBlog.EntityLayer.Concrete.ContactMessage", b =>
+                {
+                    b.Property<int>("ContactMessageId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ContactMessageId"), 1L, 1);
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsRead")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Mail")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Message")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NameSurname")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Subject")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ContactMessageId");
+
+                    b.ToTable("ContactMessages");
                 });
 
             modelBuilder.Entity("MyBlog.EntityLayer.Concrete.SocialMedia", b =>
@@ -334,6 +411,28 @@ namespace MyBlog.DataAccessLayer.Migrations
                     b.HasKey("SocialMediaId");
 
                     b.ToTable("SocialMedias");
+                });
+
+            modelBuilder.Entity("MyBlog.EntityLayer.Concrete.Subscribe", b =>
+                {
+                    b.Property<int>("SubscribeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SubscribeId"), 1L, 1);
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsTrue")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("SubscribeMail")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("SubscribeId");
+
+                    b.ToTable("Subscribes");
                 });
 
             modelBuilder.Entity("MyBlog.EntityLayer.Concrete.Tag", b =>
@@ -437,10 +536,45 @@ namespace MyBlog.DataAccessLayer.Migrations
                         .WithMany("Articles")
                         .HasForeignKey("AppUserId");
 
+                    b.HasOne("MyBlog.EntityLayer.Concrete.Category", "Category")
+                        .WithMany("Articles")
+                        .HasForeignKey("CategoryId");
+
                     b.Navigation("AppUser");
+
+                    b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("MyBlog.EntityLayer.Concrete.Comment", b =>
+                {
+                    b.HasOne("MyBlog.EntityLayer.Concrete.AppUser", "AppUser")
+                        .WithMany("Comments")
+                        .HasForeignKey("AppUserId");
+
+                    b.HasOne("MyBlog.EntityLayer.Concrete.Article", "Articles")
+                        .WithMany("Comments")
+                        .HasForeignKey("ArticleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Articles");
                 });
 
             modelBuilder.Entity("MyBlog.EntityLayer.Concrete.AppUser", b =>
+                {
+                    b.Navigation("Articles");
+
+                    b.Navigation("Comments");
+                });
+
+            modelBuilder.Entity("MyBlog.EntityLayer.Concrete.Article", b =>
+                {
+                    b.Navigation("Comments");
+                });
+
+            modelBuilder.Entity("MyBlog.EntityLayer.Concrete.Category", b =>
                 {
                     b.Navigation("Articles");
                 });

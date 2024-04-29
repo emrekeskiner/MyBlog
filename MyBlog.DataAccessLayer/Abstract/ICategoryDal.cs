@@ -1,4 +1,5 @@
-﻿using MyBlog.EntityLayer.Concrete;
+﻿using MyBlog.DataAccessLayer.Context;
+using MyBlog.EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,6 @@ namespace MyBlog.DataAccessLayer.Abstract
 {
     public interface ICategoryDal: IGenericDal<Category>
     {
-
+        
     }
 }

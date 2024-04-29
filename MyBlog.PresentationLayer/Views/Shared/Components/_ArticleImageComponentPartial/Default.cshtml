@@ -1,0 +1,16 @@
+﻿@model List<Article>
+
+<div class="container-fluid">
+    <div class="footer__instagram">
+
+        <div class="row">
+            @foreach (var item in Model)
+            {
+            <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                <div class="footer__instagram__item set-bg" data-setbg="@item.ThumbImageUrl"></div>
+            </div>
+            
+            }
+        </div>
+    </div>
+</div>

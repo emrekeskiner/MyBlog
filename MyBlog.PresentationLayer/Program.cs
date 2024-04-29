@@ -19,8 +19,18 @@ builder.Services.AddScoped<IArticleService, ArticleManager>();
 builder.Services.AddScoped<IArticleDal, EfArticleDal>();
 builder.Services.AddScoped<ISocialMediaService, SocialMediaManager>();
 builder.Services.AddScoped<ISocialMediaDal, EfSocialMediaDal>();
+builder.Services.AddScoped<ICommentService, CommentManager>();
+builder.Services.AddScoped<ICommentDal, EfCommentDal>();
+builder.Services.AddScoped<ISubscribeService, SubscribeManager>();
+builder.Services.AddScoped<ISubscribeDal, EfSubscribeDal>();
+builder.Services.AddScoped<IAboutDal, EfAboutDal>();
+builder.Services.AddScoped<IAboutService, AboutManager>();
+builder.Services.AddScoped<IContactMessageDal, EfContactMessageDal>();
+builder.Services.AddScoped<IContactMessageService, ContactMessageManager>();
 
 builder.Services.AddControllersWithViews();
+
+
 
 builder.Services.Configure<IdentityOptions>(config =>
 {
@@ -52,6 +62,10 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Default}/{action=Index}/{id?}");
+app.MapAreaControllerRoute(
+    name: "WriterArea",
+    areaName: "Writer",
+    pattern: "Writer/{controller=Home}/{action=Index}/{id?}");
 
 app.UseEndpoints(endpoints =>
 {
