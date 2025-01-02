@@ -11,10 +11,12 @@ public class ProfileController : Controller
 {
 
     private readonly UserManager<AppUser> _userManager;
+    private readonly SignInManager<AppUser> _signInManager;
 
-    public ProfileController(UserManager<AppUser> userManager)
+    public ProfileController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
     {
         _userManager = userManager;
+        _signInManager = signInManager;
     }
     [Route("WriterProfile")]
     public async Task<IActionResult> WriterProfile()
@@ -22,6 +24,7 @@ public class ProfileController : Controller
         var userInfo = await _userManager.FindByNameAsync(User.Identity.Name);
         ViewBag.userId = userInfo.Id;
         ViewBag.fullName = userInfo.Name + " " + userInfo.Surname;
+        
         return View();
     }
 
@@ -76,5 +79,11 @@ public class ProfileController : Controller
         }
 
        return View();
+    }
+    [Route("LogOut")]
+    public async Task<IActionResult> LogOut()
+    {
+        await _signInManager.SignOutAsync();
+        return RedirectToAction("UseLogin", "Login");
     }
 }

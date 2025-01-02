@@ -64,5 +64,7 @@ namespace MyBlog.BusinessLayer.Concrete
         {
             return _articleDal.GetArticleWithCategoryByArticleId(id);
         }
+
+      
     }
 }

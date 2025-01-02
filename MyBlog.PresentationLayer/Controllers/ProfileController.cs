@@ -15,9 +15,14 @@ namespace MyBlog.PresentationLayer.Controllers
 
         public async Task<IActionResult> UserProfile()
         {
-            var userInfo = await _userManager.FindByNameAsync(User.Identity.Name);
-            ViewBag.userId = userInfo.Id; 
-            ViewBag.fullName = userInfo.Name+" "+userInfo.Surname; 
+
+            if (User.Identity.IsAuthenticated)
+             {
+                var userInfo = await _userManager.FindByNameAsync(User.Identity.Name);
+                ViewBag.userId = userInfo.Id;
+                ViewBag.fullName = userInfo.Name + " " + userInfo.Surname;
+             }
+          
             return View();
         }
     }

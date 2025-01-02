@@ -25,5 +25,6 @@ namespace MyBlog.DataAccessLayer.Context
         public DbSet<Subscribe> Subscribes { get; set; }
         public DbSet<About> Abouts { get; set; }
         public DbSet<ContactMessage> ContactMessages { get; set; }
+        public DbSet<Notification> Notifications { get; set; }
     }
 }

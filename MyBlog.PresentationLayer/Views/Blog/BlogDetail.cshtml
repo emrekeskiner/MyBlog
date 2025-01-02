@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Article
+@{
     ViewData["Title"] = "BlogDetail";
     Layout = "~/Views/Shared/_blogLayout.cshtml";
 }
@@ -18,20 +19,13 @@
                         </ul>
                         <h4>@ViewBag.title</h4>
                         <ul class="widget">
-                            <li>by Admin</li>
+                            <li>By @ViewBag.userName</li>
                             <li>3 min read</li>
-                            <li>20 Comment</li>
+                            <li>@ViewBag.commentCount Yorum</li>
                         </ul>
                     </div>
                 </div>
-                <div class="single-post__social__item">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
-                    </ul>
-                </div>
+               
                 <div class="single-post__top__text">
                     <p>@ViewBag.detail</p>
                 </div>
@@ -54,30 +48,65 @@
                             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         </p>
                         <div class="single-post__author__profile__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            @await Component.InvokeAsync("_SocialMediaFooterComponentPartial")
                         </div>
                     </div>
                 </div>
                 @await Component.InvokeAsync("_CommentListByBlogComponentsPartial")
                 <div class="single-post__leave__comment">
                     <div class="widget__title">
-                        <h4>Leave a comment</h4>
+                        <h4>Yorum Yap</h4>
                     </div>
-                    <form action="#">
-                        <div class="input-list">
-                            <input type="text" placeholder="Name">
-                            <input type="text" placeholder="Email">
-                            <input type="text" placeholder="Website">
+                    <form id="commentForm">
+                        <input id="inpArticleId"  type="hidden" value="@ViewBag.Id">
+                        <div  class="input-list">
+                            <input type="text" placeholder="Ad Soyad" id="inpName">
                         </div>
-                        <textarea placeholder="Message"></textarea>
-                        <button type="submit" class="site-btn">Submit</button>
+                        <textarea placeholder="Yorumuzunu yazınız." id="inpMessage"></textarea>
+                        <button type="button" id="commentSubmit" class="site-btn">Gönder</button>
                     </form>
+                    <div id="liveAlertPlaceholder"></div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+@section Scripts
+{
+     <script>
+        $("#commentSubmit").click(function () {
+            let values = {
+                NameSurname: $("#inpName").val(),
+                Description: $("#inpMessage").val(),
+                ArticleId: $("#inpArticleId").val()
+            };
+
+
+            $.ajax({
+                type: "Post",
+                url: "/Blog/AddComment/",
+                data: values,
+                success: function (response) {
+                    toastr.success(response.message, { tapToDismiss: true });
+
+                    var successAlert = $('<div class="alert alert-success alert-dismissible fade show" role="alert">Yorum başarıyla eklendi. Onaylandıktan sonra sayfada yayınlanacaktır.</div>');
+                    $('#liveAlertPlaceholder').append(successAlert);
+
+                    // commentForm'u sakla
+                    $("#commentForm").hide();
+
+                    // Mesajı formun parent elementine ekle
+                    $("#formContainer").append(successAlert);
+
+                },
+                error: function (xhr) {
+                    let errorMessage = xhr.responseJSON.error;
+
+                    toastr.error(errorMessage, { tapToDismiss: true });
+                }
+            });
+        });
+    </script>
+
+}

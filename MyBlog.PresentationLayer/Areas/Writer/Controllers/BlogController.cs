@@ -1,11 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using MyBlog.BusinessLayer.Abstract;
-using MyBlog.DataAccessLayer.Abstract;
-using MyBlog.EntityLayer.Concrete;
-using Microsoft.EntityFrameworkCore;
-using MyBlog.DataAccessLayer.Context;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using MyBlog.BusinessLayer.Abstract;
+using MyBlog.EntityLayer.Concrete;
 
 namespace MyBlog.PresentationLayer.Areas.Writer.Controllers
 {

@@ -38,4 +38,6 @@ public class EfArticleDal : GenericRepository<Article>, IArticleDal
         var values = blogContext.Articles.Where(x=>x.ArticleId==id).Include(y=>y.Category).FirstOrDefault();
         return values;
     }
+
+   
 }

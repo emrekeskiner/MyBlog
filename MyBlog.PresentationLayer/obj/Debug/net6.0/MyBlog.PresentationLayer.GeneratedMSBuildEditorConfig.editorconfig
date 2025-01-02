@@ -14,9 +14,11 @@ build_property.EnableComHosting =
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\asus\source\repos\MyBlog\MyBlog.PresentationLayer
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 6.0
+build_property.EnableCodeStyleSeverity = 
 
 [C:/Users/asus/source/repos/MyBlog/MyBlog.PresentationLayer/Areas/Writer/Views/Blog/CreateBlog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXEJsb2dcQ3JlYXRlQmxvZy5jc2h0bWw=
@@ -30,8 +32,44 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXEJsb2dcVXBkYXRlQmxvZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/asus/source/repos/MyBlog/MyBlog.PresentationLayer/Areas/Writer/Views/Notification/NotificationDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXE5vdGlmaWNhdGlvblxOb3RpZmljYXRpb25EZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/source/repos/MyBlog/MyBlog.PresentationLayer/Areas/Writer/Views/Notification/NotificationList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXE5vdGlmaWNhdGlvblxOb3RpZmljYXRpb25MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/asus/source/repos/MyBlog/MyBlog.PresentationLayer/Areas/Writer/Views/Profile/EditProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXFByb2ZpbGVcRWRpdFByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/source/repos/MyBlog/MyBlog.PresentationLayer/Areas/Writer/Views/Shared/Components/_AdminNavbarMessagesPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXF9BZG1pbk5hdmJhck1lc3NhZ2VzUGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/source/repos/MyBlog/MyBlog.PresentationLayer/Areas/Writer/Views/Shared/Components/_AdminNavbarNotificationsPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXF9BZG1pbk5hdmJhck5vdGlmaWNhdGlvbnNQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/source/repos/MyBlog/MyBlog.PresentationLayer/Areas/Writer/Views/Shared/Components/_AdminNavbarPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXF9BZG1pbk5hdmJhclBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/source/repos/MyBlog/MyBlog.PresentationLayer/Areas/Writer/Views/Shared/Components/_AdminNavbarSearchPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXF9BZG1pbk5hdmJhclNlYXJjaFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/source/repos/MyBlog/MyBlog.PresentationLayer/Areas/Writer/Views/Shared/Components/_AdminNavbarUserPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXF9BZG1pbk5hdmJhclVzZXJQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/source/repos/MyBlog/MyBlog.PresentationLayer/Areas/Writer/Views/Shared/Components/_AdminSidebarPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXF9BZG1pblNpZGViYXJQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asus/source/repos/MyBlog/MyBlog.PresentationLayer/Areas/Writer/Views/Shared/Components/_AdminSidebarUserPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXF9BZG1pblNpZGViYXJVc2VyUGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/asus/source/repos/MyBlog/MyBlog.PresentationLayer/Areas/Writer/Views/WriterLayout/Index.cshtml]

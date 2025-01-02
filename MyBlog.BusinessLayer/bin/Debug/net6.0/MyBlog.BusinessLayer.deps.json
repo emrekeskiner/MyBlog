@@ -516,7 +516,10 @@
           "MyBlog.EntityLayer": "1.0.0"
         },
         "runtime": {
-          "MyBlog.DataAccessLayer.dll": {}
+          "MyBlog.DataAccessLayer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "MyBlog.EntityLayer/1.0.0": {
@@ -524,7 +527,10 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.28"
         },
         "runtime": {
-          "MyBlog.EntityLayer.dll": {}
+          "MyBlog.EntityLayer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

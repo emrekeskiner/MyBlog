@@ -18,7 +18,7 @@ namespace MyBlog.DataAccessLayer.EntityFramework
 
        public List<Comment> GetCommentsByBlog(int id)
         {
-            var values = blogContext.Comments.Include(y=>y.AppUser).Where(x=>x.ArticleId == id).ToList();
+            var values = blogContext.Comments.Where(x=>x.ArticleId == id).ToList();
             return values;
         }
     }

@@ -9,4 +9,5 @@ public interface IArticleDal: IGenericDal<Article>
     List<Article> GetArticlesWithCategory();
 
     Article GetArticleWithCategoryByArticleId(int id);
+
 }

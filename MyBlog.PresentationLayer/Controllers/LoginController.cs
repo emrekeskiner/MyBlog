@@ -25,10 +25,12 @@ namespace MyBlog.PresentationLayer.Controllers
         {
             if (ModelState.IsValid)
             {
+                
                 var result = await _signInManager.PasswordSignInAsync(model.Username, model.Password, false, false);
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Default");
+                    
+                    return RedirectToAction("MyBlogList", "Blog", new { area = "Writer" });
                 }
                 else
                 {

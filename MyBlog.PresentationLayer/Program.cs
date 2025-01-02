@@ -27,8 +27,10 @@ builder.Services.AddScoped<IAboutDal, EfAboutDal>();
 builder.Services.AddScoped<IAboutService, AboutManager>();
 builder.Services.AddScoped<IContactMessageDal, EfContactMessageDal>();
 builder.Services.AddScoped<IContactMessageService, ContactMessageManager>();
+builder.Services.AddScoped<INotificationDal, EfNotificationDal>();
+builder.Services.AddScoped<INotificationService, NotificationManager>();
 
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 
 
@@ -62,10 +64,6 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Default}/{action=Index}/{id?}");
-app.MapAreaControllerRoute(
-    name: "WriterArea",
-    areaName: "Writer",
-    pattern: "Writer/{controller=Home}/{action=Index}/{id?}");
 
 app.UseEndpoints(endpoints =>
 {

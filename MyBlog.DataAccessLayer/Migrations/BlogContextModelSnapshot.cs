@@ -333,9 +333,6 @@ namespace MyBlog.DataAccessLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CommentId"), 1L, 1);
 
-                    b.Property<int?>("AppUserId")
-                        .HasColumnType("int");
-
                     b.Property<int>("ArticleId")
                         .HasColumnType("int");
 
@@ -345,12 +342,16 @@ namespace MyBlog.DataAccessLayer.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("NameSurname")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("Status")
                         .HasColumnType("bit");
 
-                    b.HasKey("CommentId");
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
 
-                    b.HasIndex("AppUserId");
+                    b.HasKey("CommentId");
 
                     b.HasIndex("ArticleId");
 
@@ -386,6 +387,31 @@ namespace MyBlog.DataAccessLayer.Migrations
                     b.HasKey("ContactMessageId");
 
                     b.ToTable("ContactMessages");
+                });
+
+            modelBuilder.Entity("MyBlog.EntityLayer.Concrete.Notification", b =>
+                {
+                    b.Property<int>("NotificationId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("NotificationId"), 1L, 1);
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("NotificationId");
+
+                    b.ToTable("Notifications");
                 });
 
             modelBuilder.Entity("MyBlog.EntityLayer.Concrete.SocialMedia", b =>
@@ -547,17 +573,11 @@ namespace MyBlog.DataAccessLayer.Migrations
 
             modelBuilder.Entity("MyBlog.EntityLayer.Concrete.Comment", b =>
                 {
-                    b.HasOne("MyBlog.EntityLayer.Concrete.AppUser", "AppUser")
-                        .WithMany("Comments")
-                        .HasForeignKey("AppUserId");
-
                     b.HasOne("MyBlog.EntityLayer.Concrete.Article", "Articles")
                         .WithMany("Comments")
                         .HasForeignKey("ArticleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("AppUser");
 
                     b.Navigation("Articles");
                 });
@@ -565,8 +585,6 @@ namespace MyBlog.DataAccessLayer.Migrations
             modelBuilder.Entity("MyBlog.EntityLayer.Concrete.AppUser", b =>
                 {
                     b.Navigation("Articles");
-
-                    b.Navigation("Comments");
                 });
 
             modelBuilder.Entity("MyBlog.EntityLayer.Concrete.Article", b =>

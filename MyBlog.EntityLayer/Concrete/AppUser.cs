@@ -17,7 +17,7 @@ namespace MyBlog.EntityLayer.Concrete
         public string FullName =>string.Join(" ", Name,Surname);
 
         public List<Article> Articles { get; set; }
-        public List<Comment> Comments { get; set; }
+      
 
 
 
